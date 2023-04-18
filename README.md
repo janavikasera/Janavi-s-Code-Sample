@@ -13,13 +13,13 @@ In the end, eight model results were received. Through the offline verification 
 
 Step-by-step guide on how to obtain the model results for the competition:
  
-(1) Download the dataset to the input folder (Dataset download address: https://www.kaggle.com/competitions/feedback-prize-english-language-learning/data)
+(1) Download the dataset to the Kaggle-Comp-ELL-2023/input folder (Dataset download address: https://www.kaggle.com/competitions/feedback-prize-english-language-learning/data)
 
-(2) Run the bert-based regression model in code/fb3_deberta_base_train.ipynb (Different BERT models such as bert-v3-base, bert-v3-large, bert-v2-xlarge, or bert-v2-xxlarge can be used for training)
+(2) Run the bert-based regression model in Kaggle-Comp-ELL-2023/code/fb3_deberta_base_train.ipynb (Different BERT models such as bert-v3-base, bert-v3-large, bert-v2-xlarge, or bert-v2-xxlarge can be used for training)
 
-(3) Then run the bert-based classification model in code/fb3_deberta_base_clf.ipynb, and save the trained weights to the input/debertclassification path
+(3) Then run the bert-based classification model in Kaggle-Comp-ELL-2023/code/fb3_deberta_base_clf.ipynb, and save the trained weights to the input/debertclassification path
 
-(4) Finally, run the infer-code in code/fb3_infer.ipynb. If you don't want to train the inferred weight, you can download it directly using the following links: 
+(4) Finally, run the infer-code in Kaggle-Comp-ELL-2023/code/fb3_infer.ipynb. If you don't want to train the inferred weight, you can download it directly using the following links: 
 
 [0911-deberta-v3-base](https://www.kaggle.com/datasets/kojimar/0911-deberta-v3-base)
 
